@@ -1,0 +1,89 @@
+ay = str(input("Hangi ayda doğdunuz?"))
+gun = int(input("Hangi gün doğdunuz?"))
+
+if ay == "Ocak":
+    if gun > 20:
+        print("Burcunuz Kova")
+
+    elif gun < 21:
+        print("Burcunuz Oğlak")
+        # ========================
+if ay == "Şubat":
+    if gun > 20:
+        print("Burcunuz Balık")
+
+    elif gun < 20:
+        print("Burcunuz Kova")
+        # ========================
+if ay == "Mart":
+    if gun > 20:
+        print("Burcunuz Koç")
+
+    elif gun < 21:
+        print("Burcunuz Balık")
+        # ========================
+if ay == "Nisan":
+    if gun > 21:
+        print("Burcunuz Kova")
+
+    elif gun < 21:
+        print("Burcunuz Koç")
+        # ========================
+if ay == "Mayıs":
+    if gun > 20:
+        print("Burcunuz İkizler")
+
+    elif gun < 20:
+        print("Burcunuz Boğa")
+        # ========================
+if ay == "Haziran":
+    if gun > 21:
+        print("Burcunuz Yengeç")
+
+    elif gun < 21:
+        print("Burcunuz İkizler")
+        # ========================
+if ay == "Temmuz":
+    if gun > 22:
+        print("Burcunuz Aslan")
+
+    elif gun < 21:
+        print("Burcunuz Yengeç")
+        # ========================
+if ay == "Ağustos":
+    if gun > 23:
+        print("Burcunuz Başak")
+
+    elif gun < 21:
+        print("Burcunuz Aslan")
+        # ========================
+if ay == "Eylül":
+    if gun > 21:
+        print("Burcunuz Terazi")
+
+    elif gun < 23:
+        print("Burcunuz Başak")
+        # ========================
+if ay == "Ekim":
+    if gun > 23:
+        print("Burcunuz Akrep")
+
+    elif gun < 23:
+        print("Burcunuz Terazi")
+        # ========================
+if ay == "Kasım":
+    if gun > 22:
+        print("Burcunuz Yay")
+
+    elif gun < 21:
+        print("Burcunuz Akrep")
+        # ========================
+if ay == "Aralık":
+    if gun > 21:
+        print("Burcunuz Oğlak")
+
+    elif gun < 22:
+        print("Burcunuz Yay")
+        # ========================
+
+print("Doğum gününüz",gun,ay)
